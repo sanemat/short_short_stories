@@ -46,6 +46,9 @@ GEM
     octopress (3.0.0.rc.10)
       jekyll (~> 2.0, >= 2.0.0)
       mercenary (~> 0.3.2)
+    octopress-deploy (1.0.0.rc.8)
+      colorator
+      octopress (~> 3.0.0.rc.10)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
@@ -68,3 +71,4 @@ PLATFORMS
 
 DEPENDENCIES
   octopress (~> 3.0.0.rc.10)
+  octopress-deploy (~> 1.0.0.rc.8)
