@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Try Again Nodejs"
+date: 2014-05-12T21:59:16+09:00
 ---
 
 jQueryでちょろっとDOM操作できる、hello world的なnodejs/express/mongodb のチュートリアル写経した、だと全然nodejs書けるようにならないので、その次。
