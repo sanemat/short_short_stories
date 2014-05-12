@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Recommend Nodeschoolio"
+date: 2014-05-12T22:03:28+09:00
 ---
 nodebeginner.orgの次。
 
