@@ -1,0 +1,12 @@
+<p>自分自身を返すのではない、メソッドチェーン、(自分のjavascriptコードではよくやってしまう) e.g. <code>messages.map(function(message) { return message.id })</code> みたいなのよく書けた気がしてついやっちゃうんだけどやっぱり気持ち悪い。</p>
+
+<p><code>ruby
+&gt; 5 #=&gt; 5 # ふつう
+&gt; 5.class #=&gt; Fixnum
+&gt; 5.days #=&gt; 432000 # わかる
+&gt; 5.days.class #=&gt; Fixnum
+&gt; 5.days.ago #=&gt; Thu, 08 May 2014 02:16:41 JST +09:00 # ??!!??
+&gt; 5.days.ago.class #=&gt; ActiveSupport::TimeWithZone
+</code></p>
+
+<p>はい。</p>
