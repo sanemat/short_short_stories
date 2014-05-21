@@ -1,6 +1,16 @@
+GIT
+  remote: git://github.com/octopress/ink.git
+  revision: 81110bdf5253c94da7fa2949db67721ed0620ca3
+  specs:
+    octopress-ink (1.0.0.alpha.45)
+      autoprefixer-rails (~> 1.1, >= 1.1.20140403)
+      jekyll (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    autoprefixer-rails (1.1.20140512)
+      execjs
     blankslate (2.1.2.4)
     celluloid (0.15.2)
       timers (~> 1.1.0)
@@ -72,3 +82,4 @@ PLATFORMS
 DEPENDENCIES
   octopress (~> 3.0.0.rc.10)
   octopress-deploy (~> 1.0.0.rc.8)
+  octopress-ink!
