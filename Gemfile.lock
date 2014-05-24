@@ -1,12 +1,19 @@
+GIT
+  remote: git://github.com/octopress/ink.git
+  revision: 81110bdf5253c94da7fa2949db67721ed0620ca3
+  specs:
+    octopress-ink (1.0.0.alpha.45)
+      autoprefixer-rails (~> 1.1, >= 1.1.20140403)
+      jekyll (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    autoprefixer-rails (1.1.20140512)
+      execjs
     blankslate (2.1.2.4)
     celluloid (0.15.2)
       timers (~> 1.1.0)
-    celluloid-io (0.15.0)
-      celluloid (>= 0.15.0)
-      nio4r (>= 0.5.0)
     classifier (1.3.4)
       fast-stemmer (>= 1.0.0)
     coffee-script (2.2.0)
@@ -36,15 +43,13 @@ GEM
       sass (~> 3.2)
     kramdown (1.3.3)
     liquid (2.5.5)
-    listen (2.7.4)
+    listen (2.7.5)
       celluloid (>= 0.15.2)
-      celluloid-io (>= 0.15.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.3)
-    nio4r (1.0.0)
-    octopress (3.0.0.rc.10)
-      jekyll (~> 2.0, >= 2.0.0)
+    octopress (3.0.0.rc.11)
+      jekyll (~> 2.0)
       mercenary (~> 0.3.2)
     octopress-deploy (1.0.0.rc.8)
       colorator
@@ -58,7 +63,7 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.4)
       ffi (>= 0.5.0)
-    redcarpet (3.1.1)
+    redcarpet (3.1.2)
     safe_yaml (1.0.3)
     sass (3.3.7)
     timers (1.1.0)
@@ -72,3 +77,4 @@ PLATFORMS
 DEPENDENCIES
   octopress (~> 3.0.0.rc.10)
   octopress-deploy (~> 1.0.0.rc.8)
+  octopress-ink!
