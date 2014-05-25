@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/octopress/ink.git
-  revision: 81110bdf5253c94da7fa2949db67721ed0620ca3
+  revision: 7351251d16b2944f8230f0c6e962b40ac6815728
   specs:
     octopress-ink (1.0.0.alpha.45)
       autoprefixer-rails (~> 1.1, >= 1.1.20140403)
@@ -9,7 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (1.1.20140512)
+    autoprefixer-rails (1.1.20140523)
       execjs
     blankslate (2.1.2.4)
     celluloid (0.15.2)
@@ -48,7 +48,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.3)
-    octopress (3.0.0.rc.11)
+    octopress (3.0.0.rc.12)
       jekyll (~> 2.0)
       mercenary (~> 0.3.2)
     octopress-deploy (1.0.0.rc.8)
